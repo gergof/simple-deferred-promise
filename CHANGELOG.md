@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/gergof/simple-deferred-promise/compare/v1.1.1...v1.1.2) (2023-11-21)
+
+
+### Bug Fixes
+
+* Fixed dist files ([e6950ad](https://github.com/gergof/simple-deferred-promise/commit/e6950adea71bdee9d3666932550d9c8e120445e3))
+
 ### [1.1.1](https://github.com/gergof/simple-deferred-promise/compare/v1.1.0...v1.1.1) (2023-11-21)
 
 
