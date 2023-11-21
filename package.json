@@ -15,6 +15,9 @@
   "exports": {
     ".": "dist/index.js"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gergof/simple-deferred-promise.git"
