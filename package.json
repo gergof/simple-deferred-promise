@@ -1,0 +1,88 @@
+{
+  "name": "simple-deferred-promise",
+  "version": "1.0.0",
+  "description": "A dead simple deferred promise with TypeScript",
+  "type": "module",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "rimraf dist && tsc --project tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "esw --color --ext .ts src",
+    "lint:fix": "esw --color --ext .ts --fix src",
+    "lint:watch": "esw --color --ext .ts --fix --watch --cache src",
+    "release": "standard-version"
+  },
+  "exports": {
+    ".": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergof/simple-deferred-promise.git"
+  },
+  "keywords": [
+    "deferred",
+    "promise",
+    "typescript"
+  ],
+  "author": "Fándly Gergő",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gergof/simple-deferred-promise/issues"
+  },
+  "homepage": "https://github.com/gergof/simple-deferred-promise#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.9",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-watch": "^8.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "standard-version": "^9.5.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.2"
+  },
+  "standard-version": {
+    "scripts": {
+      "prerelease": "git fetch --all --tags"
+    },
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "imp",
+        "section": "Improvements"
+      },
+      {
+        "type": "ci",
+        "section": "Build/CI"
+      },
+      {
+        "type": "chore",
+        "hidden": true
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "refactor",
+        "section": "Refactor"
+      },
+      {
+        "type": "test",
+        "section": "Testing"
+      }
+    ]
+  }
+}

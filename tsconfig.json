@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "nodenext",
+		"lib": ["esnext", "DOM"],
+		"allowJs": true,
+		"rootDirs": ["src"],
+		"outDir": "dist",
+		"resolveJsonModule": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"moduleResolution": "nodenext",
+		"isolatedModules": true,
+		"declaration": true
+	},
+	"exclude": ["node_modules"]
+}
