@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/gergof/simple-deferred-promise/compare/v1.1.3...v1.2.0) (2024-05-27)
+
+
+### Features
+
+* Replaced license with MIT license ([149aaef](https://github.com/gergof/simple-deferred-promise/commit/149aaef93bbbc7e2d5afa8a677e4a20ff44f5a7e))
+
 ### [1.1.3](https://github.com/gergof/simple-deferred-promise/compare/v1.1.2...v1.1.3) (2023-11-21)
 
 
